@@ -1,0 +1,58 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Task 3</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo"><img src="images/logo.png" alt="logo"></div>
+        </div>
+    </header>
+    <main class="main-grid">
+        <div class="popup" id="popup">
+            <div class="message">
+                <div><img src="images/logo.png" alt="logo"></div>
+                <p>На вашу почту выслана ссылка, перейдите по ней, чтобы завершить регистрацию.</p>
+                <button class="button" id="close-popup">ОК</button>
+            </div>
+        </div>
+        <div class="left-side">
+            <div class="caption-block">
+                <h1>Get your free account</h1>
+                <p>Try homeWorks BUSINESS free for 15 days. Downgrade to Basic (Free Forever) anytime.</p>
+            </div>
+            <div class="form-block">
+                <form action="" method="get" class="sign-up-form">
+                    <label for="full-name" class="form-label">Full Name</label>
+                    <input type="text" name="full-name" id="full-name" class="form-field">
+                    <label for="user-name" class="form-label sign-up">Your username</label>
+                    <input type="text" name="name" id="user-name" class="form-field">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" name="email" id="email" class="form-field">
+                    <label for="password" class="form-label sign-up">Password</label>
+                    <input type="password" name="password" id="password" class="form-field">
+                    <label for="repeat-password" class="form-label">Repeat Password</label>
+                    <input type="password" name="repeat-password" id="repeat-password" class="form-field">
+                    <div class="agreement-block">
+                        <input type="checkbox" id="agreement" name="agreement" class="checkbox">
+                        <label for="agreement" class="agreement-text">Agree to our Terms of Service and Privacy
+                            Statement</label>
+                    </div>
+                    <input class="button" type="submit" value="Sign Up" id="button">
+                    <a id="have-account">Already have an account?</a>
+                </form>
+            </div>
+        </div>
+        <div class="right-side">
+            <img src="images/image.png" alt="">
+        </div>
+    </main>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
